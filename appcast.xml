@@ -25,6 +25,22 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.0/Haoyong-0.2.0.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="lYOxwxM04pRl25mnd4OEg3wS6j2S47sHkWh61p2Z+F8yMdDU1T8I/uN1QMGym+LTMsoCnv3UBmbLr8BLjffwAQ==" length="34226757"/>
     </item>
+    <item>
+      <title>0.2.1</title>
+      <pubDate>Tue, 17 Nov 2026 04:04:24 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>修复</h3>
+<ul>
+<li>在全新的 Mac 上装完以后，输入法菜单、「系统设置 › 键盘 › 输入法」里都找不到 haoyong 拼音。原因是安装时只启用了简体模式，没有启用输入法本身。现在两者都会启用。</li>
+<li>安装时 macOS 可能会问是否允许 haoyong，点「允许」即可。</li>
+</ul>
+<p>如果你装过 0.2.0 却一直找不到它，重新下载 0.2.1 安装一次就好。</p>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.1/Haoyong-0.2.1.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="OPBHJrFG5XkoOKEwZRyQcql12IGii9ycVn2TY+9u+PHqehzh0fw+MNrPV1qOkFJaVG3IBCWMJmWnERnHX8nvDg==" length="34229953"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
