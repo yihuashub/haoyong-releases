@@ -41,6 +41,28 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.1/Haoyong-0.2.1.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="OPBHJrFG5XkoOKEwZRyQcql12IGii9ycVn2TY+9u+PHqehzh0fw+MNrPV1qOkFJaVG3IBCWMJmWnERnHX8nvDg==" length="34229953"/>
     </item>
+    <item>
+      <title>0.2.2</title>
+      <pubDate>Tue, 17 Nov 2026 16:53:05 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>改名</h3>
+<p>haoyong 输入法改叫「好用输入法」，输入法列表里叫「好用拼音」。学习记录、设置和同步都不受影响。</p>
+<h3>新功能</h3>
+<ul>
+<li>菜单栏显示今天打了多少字，点开能看平均速度和累计字数。只在本机记数字，不记内容、不同步。不想要可以在菜单里或设置里关掉。</li>
+<li>设置「关于」页可以直接卸载，可以选择保留学习记录。</li>
+</ul>
+<h3>修复</h3>
+<ul>
+<li>从输入法菜单打开设置时，窗口会被压在其他窗口下面，现在会出现在最前面。</li>
+<li>纠错候选后面的小魔法棒在浅色皮肤上几乎看不见，现在颜色加深了。</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.2/Haoyong-0.2.2.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="3DqNd8g6fR5k03P9b25A1fic4gYOpwgaOLCchpphaDN2dLVCQ5nBNSszo8Abqy3gAxcgdPWto1Cjim5+UTc0Ag==" length="34273157"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
