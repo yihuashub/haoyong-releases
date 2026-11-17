@@ -36,7 +36,7 @@
 每个版本都附带 `.sha256` 文件：
 
 ```bash
-shasum -a 256 Haoyong-0.1.0.pkg
+shasum -a 256 Haoyong-0.2.0.pkg
 ```
 
 ## 开源组件与署名
