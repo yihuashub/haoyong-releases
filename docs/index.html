@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>haoyong 输入法：注重隐私，还更懂你的 Mac 拼音输入法</title>
+<meta name="description" content="Mac 上的免费拼音输入法。你打的字只留在本机；会学你的选择和上下文，打错也能纠正。装上语法模型后整句首选准确率 88.8%。">
+<meta property="og:title" content="haoyong 输入法：注重隐私，还更懂你的输入法">
+<meta property="og:description" content="Mac 上的免费拼音输入法。你打的字只留在本机，打得越多，首选越准。">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f2f4ef">
+<link rel="icon" href="img/favicon-64.png" type="image/png">
+<link rel="preload" href="fonts/wenkai-site.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <a class="brand" href="#top" aria-label="haoyong 输入法 首页"><img src="img/icon-256.webp" width="34" height="34" alt="">haoyong 输入法</a>
+  <nav aria-label="页面导航">
+    <a href="#privacy">隐私</a><a href="#learn">怎么学你</a><a href="#accuracy">准确率</a><a href="#features">功能</a><a href="#faq">常见问题</a>
+  </nav>
+  <div class="name" aria-hidden="true">姓名<u>你</u></div>
+  <a class="top-dl dl" href="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.0/Haoyong-0.2.0.pkg">下载</a>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <h1 class="copybook" aria-label="注重隐私，还更懂你的输入法">
+    <span class="ch ink" aria-hidden="true"><span>注</span></span><span class="ch ink" aria-hidden="true"><span>重</span></span><span class="ch ink" aria-hidden="true"><span>隐</span></span><span class="ch ink" aria-hidden="true"><span>私</span></span><span class="ch ink punct" aria-hidden="true"><span>，</span></span><span class="ch" data-g="1" aria-hidden="true"><span>还</span></span><span class="ch" data-g="1" aria-hidden="true"><span>更</span></span><span class="ch" data-g="1" aria-hidden="true"><span>懂</span></span><span class="ch" data-g="2" aria-hidden="true"><span>你</span></span><span class="ch" data-g="2" aria-hidden="true"><span>的</span></span><span class="ch" data-g="2" aria-hidden="true"><span>输</span></span><span class="ch" data-g="3" aria-hidden="true"><span>入</span></span><span class="ch" data-g="3" aria-hidden="true"><span>法</span></span>
+  </h1>
+
+  <div class="hero-copy">
+    <p class="lede">haoyong 是 Mac 上的拼音输入法。你打的字只留在这台 Mac 里，打得越多，它的首选越准。</p>
+    <div class="cta">
+      <a class="btn dl" href="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.0/Haoyong-0.2.0.pkg">
+        <svg viewBox="0 0 22 22" aria-hidden="true"><path d="M11 3v12m0 0-5-5m5 5 5-5M4 19h14"/></svg>下载 Mac 版</a>
+      <p class="fine">免费 · 34 MB · macOS 14 及以上<br>Apple 芯片和 Intel · 已通过 Apple 公证</p>
+    </div>
+  </div>
+
+  <div class="demo" id="demo">
+    <label class="demo-label" for="demo-input">试试看：打 <kbd>l</kbd>，选「了」</label>
+    <div class="demo-field">
+      <input id="demo-input" value="l" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="12" aria-describedby="demo-msg">
+    </div>
+    <ol class="cands" id="cands" aria-label="候选"></ol>
+    <div class="tally" aria-hidden="true">
+      <span class="t" data-i="1">了</span><i></i><span class="t" data-i="2">了</span><i></i><span class="t" data-i="3">了</span>
+    </div>
+    <p class="demo-msg" id="demo-msg" aria-live="polite">别的输入法给你「来」。选三次「了」，看看会怎样。</p>
+    <button class="again" id="again" type="button" hidden>重来一遍</button>
+  </div>
+
+  <a class="more" href="#learn">看看它怎么学你<svg viewBox="0 0 12 16" aria-hidden="true"><path d="M6 1v13m0 0L1 9m5 5 5-5"/></svg></a>
+</section>
+
+<section class="sec pains" aria-labelledby="pains-h">
+  <h2 id="pains-h"><span class="cl">换输入法的人，</span><span class="cl">通常是被这三件事逼的</span></h2>
+  <ul>
+    <li><span class="tag" aria-hidden="true">弹窗</span><div><strong>广告和弹窗。</strong><p>打着字，新闻推送和皮肤商城先跳了出来。</p></div></li>
+    <li><span class="tag" aria-hidden="true">上传</span><div><strong>打的字去了哪儿。</strong><p>联网输入法要把内容发到服务器才能「云联想」，你没法知道它存了什么。</p></div></li>
+    <li><span class="tag" aria-hidden="true">不学</span><div><strong>自带的不够懂你。</strong><p>系统拼音整句常出错，同一个词你选了一百次，它还是排在第三。</p></div></li>
+  </ul>
+  <p class="resolve">haoyong 把这三件事一起解决：智能全部放在你的 Mac 本机里做。</p>
+</section>
+
+<section class="sec privacy" id="privacy" aria-labelledby="privacy-h">
+  <div class="privacy-main">
+    <h2 id="privacy-h"><span class="cl">你打的字，</span><span class="cl">只在你的 Mac 上</span></h2>
+    <p>haoyong 学习的是「你打了哪几个字母、选了哪个词」的次数，存在你自己的 <code>~/Library/Haoyong/</code> 里。完整的句子它从来不存。</p>
+    <p>想看它学了什么，打开设置就能看到每一条，也能删掉。</p>
+  </div>
+  <div class="net">
+    <h3>haoyong 只会在这三种情况下联网</h3>
+    <ol>
+      <li><span class="num" aria-hidden="true">一</span><p>你自己打开了多设备同步</p></li>
+      <li><span class="num" aria-hidden="true">二</span><p>你点了「下载语法模型」</p></li>
+      <li><span class="num" aria-hidden="true">三</span><p>每天一次检查有没有新版本<small>可以关掉，只下载一个很小的版本文件</small></p></li>
+    </ol>
+  </div>
+  <aside class="sync">
+    <h3><span class="cl">多台 Mac，</span><span class="cl">学的东西跟着走</span></h3>
+    <p>在一台 Mac 上学会的词，另一台 Mac 也会用。同步前先在本机用你的密钥加密，iCloud 或你自己的服务器上只存得到密文。密钥放在 iCloud 钥匙串里，你的 Mac 之间自动传递。</p>
+  </aside>
+</section>
+
+<section class="sec learn" id="learn" aria-labelledby="learn-h">
+  <h2 id="learn-h"><span class="cl">选三次「了」，</span><span class="cl">它就记住了</span></h2>
+  <div class="learn-body">
+    <p>你打 <kbd>l</kbd>，想要的是「了」，别的输入法偏偏给你「来」。在 haoyong 里选三次「了」，下一次它就排在第一位。</p>
+    <p>它还会看前一两个字：在「慢慢」后面打 <kbd>de</kbd>，它给你「地」；在「跑」后面打 <kbd>de</kbd>，它给你「得」。</p>
+  </div>
+  <table class="examples">
+    <thead><tr><th scope="col">你打的</th><th scope="col">它给的首选</th><th scope="col">为什么</th></tr></thead>
+    <tbody>
+      <tr><td><kbd>l</kbd><small>第四次</small></td><td><span class="cells"><b>了</b></span></td><td><span class="cells steps small" aria-hidden="true"><b class="t"><span>了</span><i>没选过</i></b><b class="h"><span>了</span><i>选过一次</i></b><b>了<i>选过三次</i></b></span><span class="why">你选过三次「了」，它就从空心描成了实心</span></td></tr>
+      <tr><td><kbd>feichang<mark>f</mark>e</kbd></td><td><span class="cells"><b>非</b><b>常</b><b>地</b></span></td><td>d 按成了旁边的 f，它认得出来；「非常的」就在第二个</td></tr>
+      <tr><td><kbd>zege sijie</kbd></td><td><span class="cells"><b>这</b><b>个</b><b>世</b><b>界</b></span></td><td>平翘舌、前后鼻音分不清也没关系</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="sec accuracy" id="accuracy" aria-labelledby="acc-h">
+  <h2 id="acc-h"><span class="cl">第一次打的句子，</span><span class="cl">也大多是对的</span></h2>
+  <p class="acc-lede">整句输入时，首选就是你要的那句话的比例。同一组 98 句日常、工作和游戏聊天里，装上语法模型的 haoyong 是 88.8%，不装也有 85.7%，常用的开源词库雾凇是 83.7%。打过几遍之后，haoyong 的首选准确率到 97.3%。</p>
+  <div class="bars" role="img" aria-label="整句首选准确率：haoyong 装语法模型 88.8%，不装 85.7%，雾凇 83.7%，haoyong 打过几遍之后 97.3%">
+    <div class="bar main"><span class="who">haoyong<small>装上语法模型</small></span><span class="track"><span class="fill" style="--v:88.8"></span></span><span class="val">88.8%</span></div>
+    <div class="bar plain"><span class="who">haoyong<small>不装语法模型</small></span><span class="track"><span class="fill" style="--v:85.7"></span></span><span class="val">85.7%</span></div>
+    <div class="bar other"><span class="who">雾凇</span><span class="track"><span class="fill" style="--v:83.7"></span></span><span class="val">83.7%</span></div>
+    <div class="bar learned"><span class="who">haoyong<small>打过几遍之后</small></span><span class="track"><span class="fill" style="--v:97.3"></span></span><span class="val">97.3%</span></div>
+  </div>
+  <p class="foot">测试方法：模拟真实打字，第一次见到的句子只看首选，不翻页。语法模型是设置里可选下载的增强包（约 400 MB）。测试语料和工具在项目里，结果会随版本更新。</p>
+</section>
+
+<section class="sec features" id="features" aria-labelledby="feat-h">
+  <h2 id="feat-h">细节都替你想好了</h2>
+  <dl>
+    <div><dt>打错也能对</dt><dd>相邻键按错、多按一个键、两个键按反，候选后面带一个小魔法棒</dd></div>
+    <div><dt>键盘连击</dt><dd>同一个键 45 毫秒内按了两次，只算一次</dd></div>
+    <div><dt>中英混打</dt><dd>拼音状态下打 <kbd>github</kbd>，回车就是 github</dd></div>
+    <div><dt>写代码不打扰</dt><dd>终端、Xcode、VS Code 里默认英文</dd></div>
+    <div><dt>emoji</dt><dd>打 <kbd>ke</kbd> 也能出 🉑，不想要可以关掉</dd></div>
+    <div><dt>专业词包</dt><dd>IT、医学、法律、地名、历史名人、诗词，需要哪个开哪个</dd></div>
+    <div><dt>自动更新</dt><dd>有新版本时菜单里会提示，更新包有签名校验</dd></div>
+    <div><dt>六款皮肤</dt><dd>原生、橘红、墨黑、玻璃、纸白、极简，支持竖排；样子在下面</dd></div>
+  </dl>
+  <dl class="skins" aria-label="六款皮肤的候选窗">
+    <div><dt>原生</dt><dd><img src="img/skin-native.webp" width="318" height="41" alt="原生皮肤的候选窗：1 你好 2 拟好 3 你 4 呢 5 尼" loading="lazy"></dd></div>
+    <div><dt>橘红</dt><dd><img src="img/skin-orange.webp" width="318" height="41" alt="橘红皮肤的候选窗，选中的「你好」是橘红色字" loading="lazy"></dd></div>
+    <div><dt>墨黑</dt><dd><img src="img/skin-ink.webp" width="338" height="43" alt="墨黑皮肤的候选窗" loading="lazy"></dd></div>
+    <div><dt>玻璃</dt><dd><img src="img/skin-glass.webp" width="334" height="43" alt="玻璃皮肤的候选窗" loading="lazy"></dd></div>
+    <div><dt>纸白</dt><dd><img src="img/skin-paper.webp" width="334" height="43" alt="纸白皮肤的候选窗" loading="lazy"></dd></div>
+    <div><dt>极简</dt><dd><img src="img/skin-minimal.webp" width="298" height="39" alt="极简皮肤的候选窗" loading="lazy"></dd></div>
+  </dl>
+</section>
+
+<section class="sec install" id="install" aria-labelledby="inst-h">
+  <h2 id="inst-h"><span class="cl">三步装好，</span><span class="cl">不用写配置</span></h2>
+  <ol>
+    <li><span class="num" aria-hidden="true">一</span><p><strong>下载并打开安装包</strong>，输入一次管理员密码（输入法要装进系统的输入法文件夹）</p></li>
+    <li><span class="num" aria-hidden="true">二</span><p><strong>在菜单栏的输入法菜单里选「haoyong拼音」</strong></p></li>
+    <li><span class="num" aria-hidden="true">三</span><p><strong>开始打字。</strong>想要整句更准，在设置里下载语法模型增强包（约 400 MB）</p></li>
+  </ol>
+</section>
+
+<section class="sec faq" id="faq" aria-labelledby="faq-h">
+  <h2 id="faq-h">常见问题</h2>
+  <div class="qa">
+    <details><summary>免费吗？</summary><p>免费下载、免费使用，没有内购，也没有会员。</p></details>
+    <details><summary>你说不上传，我怎么确认？</summary><p>联网的三种情况都写在上面，你可以用任何抓包工具验证。学习记录在设置的「学习记录」里，每一条都能看、能删。</p></details>
+    <details><summary>和系统自带的拼音比，换过来要重新习惯吗？</summary><p>按键习惯一样：全拼、Shift 切换中英文、数字键选词、<kbd>-</kbd> <kbd>=</kbd> 翻页。头几天它在学你，越用越顺手。</p></details>
+    <details><summary>支持双拼、五笔、iPhone 吗？</summary><p>现在只有 Mac 版的全拼。</p></details>
+    <details><summary>怎么卸载？</summary><p>先在「系统设置 › 键盘 › 输入法」里把「haoyong拼音」移除，再删掉 <code>/Library/Input Methods/Haoyong.app</code>（需要管理员密码）。学习记录和设置在 <code>~/Library/Haoyong/</code>，想一起清掉就删这个文件夹。</p></details>
+    <details><summary>词库是哪来的？</summary><p>主词库和语法模型来自开源项目「万象拼音」（CC BY 4.0），专业词包来自清华大学 THUOCL（MIT）。完整的开源组件列表在<a href="https://github.com/yihuashub/haoyong-releases">发布页</a>。</p></details>
+  </div>
+</section>
+
+<section class="sec final" aria-labelledby="final-h">
+  <h2 id="final-h" class="copybook small" aria-label="注重隐私，还更懂你">
+    <span class="ch ink" aria-hidden="true"><span>注</span></span><span class="ch ink" aria-hidden="true"><span>重</span></span><span class="ch ink" aria-hidden="true"><span>隐</span></span><span class="ch ink" aria-hidden="true"><span>私</span></span><span class="ch ink punct" aria-hidden="true"><span>，</span></span><span class="ch ink" aria-hidden="true"><span>还</span></span><span class="ch ink" aria-hidden="true"><span>更</span></span><span class="ch ink" aria-hidden="true"><span>懂</span></span><span class="ch ink" aria-hidden="true"><span>你</span></span>
+  </h2>
+  <p class="final-lede">下载 haoyong，让输入法开始学你。</p>
+  <div class="cta">
+    <a class="btn dl" href="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.0/Haoyong-0.2.0.pkg">
+      <svg viewBox="0 0 22 22" aria-hidden="true"><path d="M11 3v12m0 0-5-5m5 5 5-5M4 19h14"/></svg>下载 Mac 版</a>
+    <p class="fine">免费 · 34 MB · 已通过 Apple 公证 · 没有广告</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="bottom">
+  <p>haoyong 输入法 0.2.0 · <a href="https://github.com/yihuashub/haoyong-releases/releases">所有版本和更新说明</a></p>
+  <p>用到的开源项目：librime（BSD）、万象拼音（CC BY 4.0）、THUOCL（MIT）、Sparkle（MIT）、霞鹜文楷（SIL OFL，本页字体）</p>
+</footer>
+
+</div>
+<script src="main.js" defer></script>
+</body>
+</html>
