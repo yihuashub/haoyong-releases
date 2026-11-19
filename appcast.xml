@@ -63,6 +63,21 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.2/Haoyong-0.2.2.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="3DqNd8g6fR5k03P9b25A1fic4gYOpwgaOLCchpphaDN2dLVCQ5nBNSszo8Abqy3gAxcgdPWto1Cjim5+UTc0Ag==" length="34273157"/>
     </item>
+    <item>
+      <title>0.2.3</title>
+      <pubDate>Thu, 19 Nov 2026 03:30:40 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>修复</h3>
+<ul>
+<li>在 Chrome 的登录框、两步验证码框里完全打不了字（按什么都没反应）。原因是输入法把自己声明成「只能打中文」，浏览器的安全输入框因此把按键全丢掉了。</li>
+</ul>
+<p>装完如果在这些输入框里还是打不了字，注销再登录一次 macOS，让系统重新读取输入法信息。</p>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.3/Haoyong-0.2.3.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="7VZfr0wMiUXom+b7FB2KA0faTqTLxIxnPXegk1+zhYBSNsZnIjrpRoTo9FhkCqC+/Z1hnoPVxt7AjaYWgPdzBw==" length="34273515"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
