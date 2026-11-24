@@ -108,6 +108,20 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.5/Haoyong-0.2.5.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="GNi2kxnWyURbJYXX5rcpU1vb1siv5k/jydf76TXe3m2GqMG3SXEY0u8yk2TQgt/egyA4EI2t79mLw/S0Ip+BDQ==" length="34275906"/>
     </item>
+    <item>
+      <title>0.2.6</title>
+      <pubDate>Tue, 24 Nov 2026 18:44:05 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>切换到好用拼音时，光标旁的提示改成不带底的 h|，并且居中；不会再显示旧的「好」（安装时会刷新系统的提示缓存）</li>
+<li>按 Shift 切中英时，「英」的提示看得清了（之前在跟随系统深浅色的皮肤里是一整块黑），「中」「英」都用高亮色</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.6/Haoyong-0.2.6.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="+Ur9QlTFgTXgynFdnnRREL3F32qjiYTmwUutKH2tgF0DN2E14nu1E08YV4cQa9N353EQNDI/kU7PeaenvN6iCg==" length="34279176"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
