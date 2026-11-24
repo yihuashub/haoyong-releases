@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>好用输入法：注重隐私，还更懂你的 Mac 拼音输入法</title>
-<meta name="description" content="Mac 上的免费拼音输入法。你打的字只留在本机；会学你的选择和上下文，打错也能纠正。装上语法模型后整句首选准确率 88.8%。">
+<meta name="description" content="Mac 上的免费拼音输入法。你打的字只留在本机；会学你的选择和上下文，打错也能纠正。装上语法模型后整句首选准确率 91.8%。">
 <meta property="og:title" content="好用输入法：注重隐私，还更懂你的输入法">
 <meta property="og:description" content="Mac 上的免费拼音输入法。你打的字只留在本机，打得越多，首选越准。">
 <meta property="og:type" content="website">
@@ -97,22 +97,22 @@
     <thead><tr><th scope="col">你打的</th><th scope="col">它给的首选</th><th scope="col">为什么</th></tr></thead>
     <tbody>
       <tr><td><kbd>l</kbd><small>第四次</small></td><td><span class="cells"><b>了</b></span></td><td><span class="cells steps small" aria-hidden="true"><b class="t"><span>了</span><i>没选过</i></b><b class="h"><span>了</span><i>选过一次</i></b><b>了<i>选过三次</i></b></span><span class="why">你选过三次「了」，它就从空心描成了实心</span></td></tr>
-      <tr><td><kbd>feichang<mark>f</mark>e</kbd></td><td><span class="cells"><b>非</b><b>常</b><b>地</b></span></td><td>d 按成了旁边的 f，它认得出来；「非常的」就在第二个</td></tr>
-      <tr><td><kbd>zege sijie</kbd></td><td><span class="cells"><b>这</b><b>个</b><b>世</b><b>界</b></span></td><td>平翘舌、前后鼻音分不清也没关系</td></tr>
+      <tr><td><kbd>feichang<mark>f</mark>e</kbd></td><td><span class="cells"><b>非</b><b>常</b><b>地</b></span></td><td>d 按成了旁边的 f，它照样认出你要打的是 feichangde</td></tr>
+      <tr><td><kbd>mignbai</kbd></td><td><span class="cells"><b>明</b><b>白</b></span></td><td>两个字母按反了，首选照样是你要的</td></tr>
     </tbody>
   </table>
 </section>
 
 <section class="sec accuracy" id="accuracy" aria-labelledby="acc-h">
   <h2 id="acc-h"><span class="cl">第一次打的句子，</span><span class="cl">也大多是对的</span></h2>
-  <p class="acc-lede">整句输入时，首选就是你要的那句话的比例。同一组 98 句日常、工作和游戏聊天里，装上语法模型的好用输入法是 88.8%，不装也有 85.7%，常用的开源词库雾凇是 83.7%。打过几遍之后，好用输入法的首选准确率到 97.3%。</p>
-  <div class="bars" role="img" aria-label="整句首选准确率：好用输入法装语法模型 88.8%，不装 85.7%，雾凇 83.7%，好用输入法打过几遍之后 97.3%">
-    <div class="bar main"><span class="who">好用<small>装上语法模型</small></span><span class="track"><span class="fill" style="--v:88.8"></span></span><span class="val">88.8%</span></div>
-    <div class="bar plain"><span class="who">好用<small>不装语法模型</small></span><span class="track"><span class="fill" style="--v:85.7"></span></span><span class="val">85.7%</span></div>
+  <p class="acc-lede">整句输入时，首选就是你要的那句话的比例。同一组 98 句日常、工作和游戏聊天里，装上语法模型的好用输入法是 91.8%，不装也有 88.8%，常用的开源词库雾凇是 83.7%。一个词一个词地打，同样的话打过几遍之后，好用输入法的首选准确率到 97.3%。</p>
+  <div class="bars" role="img" aria-label="整句首选准确率：好用输入法装语法模型 91.8%，不装 88.8%，雾凇 83.7%；按词输入、打过几遍之后 97.3%">
+    <div class="bar main"><span class="who">好用<small>装上语法模型</small></span><span class="track"><span class="fill" style="--v:91.8"></span></span><span class="val">91.8%</span></div>
+    <div class="bar plain"><span class="who">好用<small>不装语法模型</small></span><span class="track"><span class="fill" style="--v:88.8"></span></span><span class="val">88.8%</span></div>
     <div class="bar other"><span class="who">雾凇</span><span class="track"><span class="fill" style="--v:83.7"></span></span><span class="val">83.7%</span></div>
     <div class="bar learned"><span class="who">好用<small>打过几遍之后</small></span><span class="track"><span class="fill" style="--v:97.3"></span></span><span class="val">97.3%</span></div>
   </div>
-  <p class="foot">测试方法：模拟真实打字，第一次见到的句子只看首选，不翻页。语法模型是设置里可选下载的增强包（约 400 MB）。测试语料和工具在项目里，结果会随版本更新。</p>
+  <p class="foot">测试方法：模拟真实打字，第一次见到的句子只看首选，不翻页。前三条是整句一次打完；最后一条是一个词一个词地打，同一组句子打到第 4 遍时的结果。数字测于 0.2.4 发布版。语法模型是设置里可选下载的增强包（约 400 MB）。测试语料和工具在项目里，结果会随版本更新。</p>
 </section>
 
 <section class="sec features" id="features" aria-labelledby="feat-h">
