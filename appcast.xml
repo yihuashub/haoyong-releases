@@ -122,6 +122,19 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.6/Haoyong-0.2.6.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="+Ur9QlTFgTXgynFdnnRREL3F32qjiYTmwUutKH2tgF0DN2E14nu1E08YV4cQa9N353EQNDI/kU7PeaenvN6iCg==" length="34279176"/>
     </item>
+    <item>
+      <title>0.2.7</title>
+      <pubDate>Tue, 24 Nov 2026 18:58:53 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>点菜单里的「重新部署」（或在设置里开关词包、模糊音）时，光标旁会提示「正在重新部署…」，完成后显示「部署完成」；失败时会告诉你日志在哪</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.7/Haoyong-0.2.7.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="F72ttEQdcoYzGsbAKoOucpMqowzMHngmIZ8l35Oiy54OFkWKpVa5zF2w2rXOxDXupU/ZP5psoMQSZU6yjEHLBw==" length="34288853"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
