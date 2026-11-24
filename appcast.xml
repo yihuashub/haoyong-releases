@@ -78,6 +78,21 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.3/Haoyong-0.2.3.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="7VZfr0wMiUXom+b7FB2KA0faTqTLxIxnPXegk1+zhYBSNsZnIjrpRoTo9FhkCqC+/Z1hnoPVxt7AjaYWgPdzBw==" length="34273515"/>
     </item>
+    <item>
+      <title>0.2.4</title>
+      <pubDate>Tue, 24 Nov 2026 10:16:31 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>改进</h3>
+<ul>
+<li>模糊音默认关闭。以前平翘舌、n/l、前后鼻音默认全开，打 shan 首选会变成「上」「三」，「shan wan le ma」出来的是「上网了吗」，「删完了吗」排不进前五。现在打什么拼音就先出什么字。</li>
+<li>分不清这几组音的话，可以在「设置 › 通用 › 模糊音」里分别打开。</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.4/Haoyong-0.2.4.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="evP+cHikHVjpPtmxo9E7suau+fqYzOvJt6Z8XuoEG1P2YDdMKHNV1qUjaQBvi92AlpdHKnXCAUl4cKvyEzVMBg==" length="34275966"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
