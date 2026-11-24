@@ -93,6 +93,21 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.4/Haoyong-0.2.4.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="evP+cHikHVjpPtmxo9E7suau+fqYzOvJt6Z8XuoEG1P2YDdMKHNV1qUjaQBvi92AlpdHKnXCAUl4cKvyEzVMBg==" length="34275966"/>
     </item>
+    <item>
+      <title>0.2.5</title>
+      <pubDate>Tue, 24 Nov 2026 10:35:10 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>改进</h3>
+<ul>
+<li>切换输入法时显示的图标换成「h|」。早期版本用过「好」字图标，系统会缓存，装过的机器切换时可能还看到「好」，现在不会了。</li>
+<li>设置里语法模型的说明更新成新的评测结果：整句首选 88.8% → 91.8%。</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.5/Haoyong-0.2.5.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="GNi2kxnWyURbJYXX5rcpU1vb1siv5k/jydf76TXe3m2GqMG3SXEY0u8yk2TQgt/egyA4EI2t79mLw/S0Ip+BDQ==" length="34275906"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
