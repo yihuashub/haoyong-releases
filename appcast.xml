@@ -135,6 +135,20 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.7/Haoyong-0.2.7.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="F72ttEQdcoYzGsbAKoOucpMqowzMHngmIZ8l35Oiy54OFkWKpVa5zF2w2rXOxDXupU/ZP5psoMQSZU6yjEHLBw==" length="34288853"/>
     </item>
+    <item>
+      <title>0.2.8</title>
+      <pubDate>Wed, 25 Nov 2026 00:45:07 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.2.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>菜单栏的输入法图标恢复成带底的 h|</li>
+<li>「重新部署」的进度和结果改成屏幕右上角的系统通知（第一次会询问是否允许通知）</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.8/Haoyong-0.2.8.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="ZWo7zWqkp8huKGzAQOX6lMPTKGnC6UptsXFNW7vn/yi9DU1wDkmTN5Qq2CsKcTRwnISVmDjeQZMAtdAMEoVEAQ==" length="34282060"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
