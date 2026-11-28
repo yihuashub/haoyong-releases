@@ -149,6 +149,20 @@
       ]]></description>
       <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.8/Haoyong-0.2.8.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="ZWo7zWqkp8huKGzAQOX6lMPTKGnC6UptsXFNW7vn/yi9DU1wDkmTN5Qq2CsKcTRwnISVmDjeQZMAtdAMEoVEAQ==" length="34282060"/>
     </item>
+    <item>
+      <title>0.2.9</title>
+      <pubDate>Sat, 28 Nov 2026 20:06:31 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.2.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>新增「词条」：在设置 → 词条里自己加「输入码 → 词」（比如 hyy → 好用输入法），打这个输入码时排第一。支持导入、导出（Rime 的 custom_phrase 格式），开了同步会和你的其他 Mac、Windows 版互通</li>
+<li>用屏幕共享、Windows App、Parsec、RustDesk 等远程连接时，本机的好用输入法不再处理按键，按 Shift 不会两边都切中英</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/yihuashub/haoyong-releases/releases/download/v0.2.9/Haoyong-0.2.9.pkg" sparkle:installationType="package" type="application/octet-stream" sparkle:edSignature="E1up+okz1ceBc6pHpRsVzv/DeYpCN2BVauG42x1K2yyPT/yEc5JGoPQcDkU0WWI7wmzNaQo2RbN5lThR84fJCQ==" length="34376727"/>
+    </item>
     <!-- ITEMS -->
   </channel>
 </rss>
